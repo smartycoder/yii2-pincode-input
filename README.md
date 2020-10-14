@@ -10,18 +10,18 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist baha2odeh/yii2-pincode-input "*"
+php composer.phar require --prefer-dist smartysoft/yii2-pincode-input "*"
 ```
 
 or add
 
 ```
-"baha2odeh/yii2-pincode-input": "*"
+"smartysoft/yii2-pincode-input": "*"
 ```
 
 for bootstrap 4
 ```
-"baha2odeh/yii2-pincode-input": "dev-bs4"
+"smartysoft/yii2-pincode-input": "dev-bs4"
 ```
 
 
@@ -34,7 +34,7 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \Baha2Odeh\PincodeInput\PinCodeInput::widget([
+<?= \smartysoft\PincodeInput\PinCodeInput::widget([
                                 'model' => $model,
                                 'attribute' => 'pincode',
                                 'jsOptions' => [
@@ -46,7 +46,7 @@ Once the extension is installed, simply use it in your code by  :
 ```                            
                             
 ```php
-<?= $form->field($model, 'pincode')->widget(\Baha2Odeh\PincodeInput\PinCodeInput::className(), [
+<?= $form->field($model, 'pincode')->widget(\smartysoft\PincodeInput\PinCodeInput::className(), [
                                 'jsOptions' => [
                                     'hidedigits'=>false,
                                     'inputs'=>4
