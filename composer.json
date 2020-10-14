@@ -2,7 +2,7 @@
     "name": "smartysoft/yii2-pincode-input",
     "description": "Yii2 Bootstrap Pincode Input",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","pincode input "," bootstrap-pincode-input"],
+    "keywords": ["yii2","extension","pincode input "],
     "license": "Apache-2.0",
     "authors": [
         {
