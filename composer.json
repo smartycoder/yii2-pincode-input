@@ -1,23 +1,23 @@
 {
-    "name": "baha2odeh/yii2-pincode-input",
+    "name": "smartysoft/yii2-pincode-input",
     "description": "Yii2 Bootstrap Pincode Input",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","pincode input "," bootstrap-pincode-input"],
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "Bahaa Odeh",
-            "email": "bw4@hotmail.it"
+            "name": "smartycoder",
+            "email": "mato46@gmail.com"
         }
     ],
     "require": {
         "yiisoft/yii2": "~2.0.0",
         "yiisoft/yii2-bootstrap": "~2.0.0",
-        "bower-asset/bootstrap-pincode-input": "1.7.0"
+        "balping/json-raw-encoder": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "Baha2Odeh\\PincodeInput\\": ""
+            "smartysoft\\PincodeInput\\": ""
         }
     }
 }

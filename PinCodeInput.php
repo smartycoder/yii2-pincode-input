@@ -1,10 +1,12 @@
 <?php
 
-namespace Baha2Odeh\PincodeInput;
+namespace smartysoft\PincodeInput;
+use Balping\JsonRaw\Encoder;
 use yii\widgets\InputWidget;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
 use \yii\bootstrap\Html;
+
 /**
  * This is just an example.
  */
@@ -25,7 +27,7 @@ class PinCodeInput extends InputWidget
         parent::init();
         PinCodeInputAsset::register($this->view);
         $id = ArrayHelper::getValue($this->options, 'id');
-        $jsOptions = $this->jsOptions ? Json::encode($this->jsOptions) : "";
+        $jsOptions = $this->jsOptions ? Encoder::encode($this->jsOptions) : "";
         $jsInit = <<<JS
 (function ($) {
     "use strict";
