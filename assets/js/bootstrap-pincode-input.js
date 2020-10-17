@@ -196,13 +196,13 @@
 						input.val(currentValue[i]);
 					}
 
-					if (i == 0) {
-						input.addClass('first');
-					} else if (i == (this.settings.inputs - 1)) {
-						input.addClass('last');
-					} else {
-						input.addClass('mid');
-					}
+					// if (i == 0) {
+					// 	input.addClass('first');
+					// } else if (i == (this.settings.inputs - 1)) {
+					// 	input.addClass('last');
+					// } else {
+					// 	input.addClass('mid');
+					// }
 
 					// add events
 					this._addEventsToInput(input, (i + 1));
